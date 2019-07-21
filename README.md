@@ -33,18 +33,18 @@ Snake-Game module in python, Can be used for Re-enforcement Learning.
 </ul>
 <h1> Code Example: </h1>
 <p><h6>Example</h6>
- <code>#AUTHOR TARUN BISHT</code>
-<code>import random</code>
-<code>from game.snake import Snake</code>
-<code>def on_gameover():</code>
-    <code>index=random.randint(0,len(snake_colors)-1)</code>
-    <code>snake.change_background(bg_colors[index])</code>
-    <code>snake.change_snake_color(snake_colors[index])</code>
-    <code>snake.change_food_color(food_colors[index])</code>
-<code>snake_colors=["white","blue","black","grey","yellow","green"]</code>
-<code>bg_colors=["black","green","white","blue","grey","yell</code>
-<code>food_colors=["blue","yellow","grey","green","white","black"]</code>
-<code>index=random.randint(0,len(snake_colors)-1)</code>
-<code>snake=Snake(title="Snake Game By Tarun Bisht",bgcolor=bg_colors[index],boundary_color="red",snake_color=snake_colors[index],snake_shape="square",food_color=food_colors[index],food_shape="circle",on_gameover=on_gameover)</code>
-<code>snake.play_game()</code>
+ <code>#AUTHOR TARUN BISHT</code><br>
+<code>import random</code><br>
+<code>from game.snake import Snake</code><br>
+<code>def on_gameover():</code><br>
+    <code>index=random.randint(0,len(snake_colors)-1)</code><br>
+    <code>snake.change_background(bg_colors[index])</code><br>
+    <code>snake.change_snake_color(snake_colors[index])</code><br>
+    <code>snake.change_food_color(food_colors[index])</code><br>
+<code>snake_colors=["white","blue","black","grey","yellow","green"]</code><br>
+<code>bg_colors=["black","green","white","blue","grey","yell</code><br>
+<code>food_colors=["blue","yellow","grey","green","white","black"]</code><br>
+<code>index=random.randint(0,len(snake_colors)-1)</code><br>
+<code>snake=Snake(title="Snake Game By Tarun Bisht",bgcolor=bg_colors[index],boundary_color="red",snake_color=snake_colors[index],snake_shape="square",food_color=food_colors[index],food_shape="circle",on_gameover=on_gameover)</code><br>
+<code>snake.play_game()</code><br>
 </p>
